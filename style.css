@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 4rem;
+}
+.container div{
+    border: 1px solid red;
+    height: 200px;
+    color: white;
+    font-size: 4rem;
+}
+div.a{
+    background-color: blue;
+}
+div.b{
+    background-color:red;
+}
+div.c{
+    background-color:yellow;
+}
+div.d{
+    background-color: gray;
+}
